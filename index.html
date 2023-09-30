@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/0e9708f697.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="black">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo left hide-on-med-and-down">Eyron</a>
+                    <a href="#!" data-target="mobile-demo" class="sidenav-trigger"><i class="fa-solid fa-bars"></i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li class="active"><a href="index.html" class="">HOME</a></li>
+                        <li><a href="about.html" class="">ABOUT</a></li>
+                        <li>
+                            <a class="waves-effect waves-dark btn white black-text contact-button" href="contact.html" type="submit" name="action">CONTACT ME
+                                <i class="fa-solid fa-paper-plane right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+        </nav>
+    </header>
+        
+    <!-- Sidenav -->
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="images/bg.jpg" alt="" class="responsive-img image-blur">
+                </div>
+                <a href="#user"><img class="circle" src="images/galang.png"></a>
+                <a href="#name"><span class="white-text name">Carl Aaron Galang</span></a>
+                <a href="#email"><span class="white-text email">carlaarongalang@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i>HOME</a></li>
+        <li><a href="about.html"><i class="fa-solid fa-user"></i>ABOUT</a></li>
+        <li><a href="contact.html"><i class="fa-solid fa-envelope"></i>CONTACT ME</a></li>
+    </ul>
+    <br>
+
+    <main>
+        <!-- Profile -->
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="image-container center">
+                    <img src="images/carlaaron.png" height="400px" width="400px"/>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="text-wrapper center">
+                    <br><br>
+                    <p class="text-p1">Hello, I'm</p>
+                    <h6 class="title">Carl Aaron Galang</h6>
+                    <p class="text-p2">A Student</p>
+                    <div class="btn-container">
+                        <a href="about.html" class="waves-effect waves-dark btn white black-text profile-button">About Me</a>
+                        <a href="contact.html" class=" waves-effect waves-light btn grey darken-4 white-text profile-button">Contact Info</a>
+                    </div>
+                    <div id="socials-container">
+                        <a href="https://www.facebook.com/carlaaron.galang0304">
+                            <img src="images/facebook.png" class="icon">
+                        </a>
+                        <a href="https://github.com/ahahron0304">
+                            <img src="images/github.png" class="icon"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/bg.jpg" class="responsive-img image-blur"></div>
+    </div>
+
+    <!-- Cards Container -->
+    <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col s12 m9 l9 center">
+                <!-- Left, Page Content -->
+                <h4>All Projects</h4>
+                <div class="divider"></div>
+                <div class="col s6 m6 l4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/typhography.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Day 1
+                                <i class="fa-solid fa-ellipsis-vertical right"></i>
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="activities/color-typhography.html">OPEN DEMO</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                <i class="fa-solid fa-xmark right"></i>
+                            </span>
+                            <h5>Colors & Typography</h5>
+                            <p>It provides a well-defined color palette and typography styles to create visually appealing and consistent web interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m6 l4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/table.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Day 2
+                                <i class="fa-solid fa-ellipsis-vertical right"></i>
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="activities/table.html">OPEN DEMO</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                <i class="fa-solid fa-xmark right"></i>
+                            </span>
+                            <h5>Table & Media</h5>
+                            <p>Tables are a component designed for displaying structured data in a clean and responsive manner. They come with built-in styles for easy customization and offer features like sorting and pagination for enhanced functionality.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m6 l4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/media.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Day 3
+                                <i class="fa-solid fa-ellipsis-vertical right"></i>
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="activities/media.html">OPEN DEMO</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                <i class="fa-solid fa-xmark right"></i>
+                            </span>
+                            <h5>Media</h5>
+                            <p>The "Media" component allows you to embed images, videos, and other multimedia content into your web pages with responsive design and predefined styles for consistent presentation.</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col s6 m6 l4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/navbar.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Day 4
+                                <i class="fa-solid fa-ellipsis-vertical right"></i>
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="activities/navbar-sidenav.html">OPEN DEMO</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                <i class="fa-solid fa-xmark right"></i>
+                            </span>
+                            <h5>Navbar & Sidenav</h5>
+                            <p>The "Navbar" is a component for creating responsive navigation bars at the top of web pages, while the "Sidenav" is used to create slide-out side navigation menus, both with customizable styles and behaviors for effective website navigation.</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col s6 m6 l4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/button.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Day 5
+                                <i class="fa-solid fa-ellipsis-vertical right"></i>
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="activities/buttons.html">OPEN DEMO</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                <i class="fa-solid fa-xmark right"></i>
+                            </span>
+                            <h5>Buttons</h5>
+                            <p>"Buttons" are interactive elements that can be customized with various styles and sizes to perform actions or trigger events on web pages, providing a consistent and visually appealing user interface.</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col s6 m6 l4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/grid.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Day 8
+                                <i class="fa-solid fa-ellipsis-vertical right"></i>
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="activities/grid.html">OPEN DEMO</a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                <i class="fa-solid fa-xmark right"></i>
+                            </span>
+                            <h5>Grid System</h5>
+                            <p>The "Grid" system is a flexible layout component that helps organize content into rows and columns, allowing for responsive and structured web page designs with ease.</p>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+            <div class="col s12 m3 l3 left-panel">
+                <!-- Right, Navigation Panel -->
+                <h4>Anime Faves:</h4>
+                <div class="divider"></div>
+                <h6 class="center">Dr. Stone</h6>
+                <div class="slider">
+                    <ul class="slides">
+                      <li>
+                        <img src="images/slide1.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide2.png" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide3.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide4.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide5.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide6.jpg" alt="">
+                      </li>
+                    </ul>
+                </div>
+                <h6 class="center">Hunter x Hunter</h6>
+                <div class="slider">
+                    <ul class="slides">
+                      <li>
+                        <img src="images/slide7.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide8.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide9.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide10.jpeg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide11.jpeg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide12.jpeg" alt="">
+                      </li>
+                    </ul>
+                </div>
+                <h6 class="center">Black Clover</h6>
+                <div class="slider">
+                    <ul class="slides">
+                      <li>
+                        <img src="images/slide13.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide14.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide15.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide16.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide17.jpg" alt="">
+                      </li>
+                      <li>
+                        <img src="images/slide18.jpg" alt="">
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        <!-- </div> -->
+    </main>
+
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row center">
+                <div class="col s12">
+                    <h5 class="white-text">Socials</h5>
+                    <ul>
+                        <a class="grey-text text-lighten-3" style="margin-right: 10px;" href="https://www.facebook.com/carlaaron.galang0304"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                        <a class="grey-text text-lighten-3" style="margin-right: 10px;" href="https://www.instagram.com/_ahahron/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                        <a class="grey-text text-lighten-3" style="margin-right: 10px;" href="https://twitter.com/_ahahron"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                        <a class="grey-text text-lighten-3" style="margin-right: 10px;" href="https://github.com/ahahron0304"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2023 Carl Aaron Galang
+            </div>
+        </div>
+    </footer>
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.tabs').tabs();
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.slider').slider({
+            height: 200,
+            duration: 1000,
+            interval: 1000,
+            indicators: false
+            });
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+</html>
