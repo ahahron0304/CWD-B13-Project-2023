@@ -57,12 +57,12 @@
     <br>
 
     <main>
-        <!-- Profile -->
+    <!-- Profile -->
     <div class="container">
         <div class="row">
             <div class="col s12 m6">
                 <div class="image-container center">
-                    <img class="responsive-img" src="images/carlaaron.png" height="400px" width="400px"/>
+                    <img class="materialboxed responsive-img" src="images/carlaaron.png" height="400px" width="400px"/>
                 </div>
             </div>
             <div class="col s12 m6">
@@ -99,9 +99,9 @@
     <!-- Cards Container -->
     <!-- <div class="container"> -->
         <div class="row">
-            <div class="col s12 m9 l9 center">
+            <div class="col s12 m9 l9">
                 <!-- Left, Page Content -->
-                <h4>All Projects</h4>
+                <h4 class="center"><b>CWD</b> Activities</h4>
                 <div class="divider"></div>
                 <div class="col s6 m6 l4">
                     <div class="card hoverable">
@@ -236,7 +236,7 @@
                     </div>
                 </div>          
             </div>
-            <div class="col s12 m3 l3 left-panel">
+            <div class="col s12 m3 l3 hide-on-med-and-down">
                 <!-- Right, Navigation Panel -->
                 <h4>Anime Faves:</h4>
                 <div class="divider"></div>
@@ -341,6 +341,10 @@
         $(document).ready(function () {
             $('.tabs').tabs();
             $('.sidenav').sidenav();
+            $('.materialboxed').materialbox({
+            inDuration: 1000,
+            outDuration: 1000,
+            });
             $('.parallax').parallax();
             $('.slider').slider({
             height: 200,
